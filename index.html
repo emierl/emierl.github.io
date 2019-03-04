@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Emil's Portfolio</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+  </head>
+  <body>
+    <div class="container-fluid vh-100">
+        <div class="row bg-secondary">
+            <div class ="col-sm my-4" id = "header">
+                    <h1 class = "text-center">My Portfolio yeah!</h1>
+            </div>
+        </div>
+        <div class="container-fluid" id="projects">
+            <div class="container-fluid  justify-content-center">
+                <div class="row p-4"  id="pictureRow">
+                    <div class="col-sm" id="bear">
+                        <img src="bearheadrussian.png" alt="alaskanGoldMiner" style="border-radius: 50%; height:250px; width:250px;" id="bearpic" usemap="#workmap1">
+                        <map name="workmap1" id="workmap1"> 
+                            <area shape="circle" coords="125,125,125" alt="Coffee">
+                        </map>
+                    </div>
+                    <div class="col-sm" id="dinner">
+                        <img src="dinnerplannerprofilepic.png" alt="dinner" style="border-radius: 50%; height:250px; width:250px;" id="dinnerpic" usemap="#workmap2">
+                        <map name="workmap2" id="workmap2"> 
+                            <area shape="circle" coords="125,125,125" alt="Coffee">
+                        </map>
+                    </div>
+                    <div class="col-sm"  display="none">
+                        <img src="placeholder.jpg" alt="placeholder" style="border-radius: 50%; height:250px; width:250px;" usemap="#workmap3">
+                        <map name="workmap3" id="workmap3"> 
+                            <area shape="circle" coords="125,125,125" alt="Coffee">
+                        </map>
+                    </div>
+                    <div class="col-sm"  display="none">
+                        <img src="placeholder.jpg" alt="placeholder" style="border-radius: 50%; height:250px; width:250px;" usemap="#workmap4">
+                        <map name="workmap4" id="workmap4"> 
+                            <area shape="circle" coords="125,125,125" alt="Coffee">
+                            </map>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid justify-content-center" id="project1View">
+                <div class="row h-50 pt-5 mt-5 justify-content-center">
+                    <div class="text-center">
+                        <div class="row">
+                            <h3>Alaskan Gold Miner</h3>
+                        </div>
+                        <div class="row p-2">
+                            <h5>The Quest for Fortune</h5>
+                        </div>
+                        <div class="row px-5 justify-content-center">
+                            <p>Alaskan gold miner was a computergame made in Unreal Enginge 4 that we made for a Compuer Game Design course.<br>It was an 3rd person adventure game, and my main contriburtion was creating the game models using Blender.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid justify-content-center" id="project2View">
+                <div class="row h-50 pt-5 mt-5 justify-content-center">
+                    <div class="text-center">
+                        <div class="row">
+                            <h3>Dinner Planner</h3>
+                        </div>
+                        <div class="row px-5 justify-content-center">
+                            <p>Dinnerplanner is a webapplication made in Vue, where you can plan your multi-course dinner. <br> It gathers receipies including all the ingredients and steps needed from a API from a foodnetwork</p>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid justify-content-center" id="project3View">
+                <div class="row h-50 pt-5 mt-5 justify-content-center">
+                    <p>This is just a placeholder for future projects</p>
+                </div>
+            </div>
+            <div class="container-fluid justify-content-center" id="project4View">
+                <div class="row h-50 pt-5 mt-5 justify-content-center">
+                    <p>This is just a placeholder for future projects</p>
+                </div>
+            </div>
+        </div>
+    </div>
+      
+        <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <!-- Bootstrap JavaScript, needed if you want for instance tabs, models, popovers etc. -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+	<!-- The application JavaScript code -->
+	<script src="main.js"></script>
+  </body>
+</html>
